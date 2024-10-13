@@ -61,7 +61,7 @@ main {
 }
 
 .cartao-pokedev .cartao-topo {
-    padding: 30px 40px 0;
+    padding: 20px 30px 0;
 }
 
 .cartao-pokedev .nome {
@@ -87,14 +87,14 @@ main {
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 80px 30px 50px;
+    padding: 60px 20px 20px;
     margin-top: -70px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
 .cartao-pokedev .cartao-informacoes h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 15px;
     border-bottom: 1px solid #6b727a;
 }
@@ -181,7 +181,7 @@ main {
     }
 
     .cartao-pokedev .cartao-informacoes {
-        padding: 60px 30px 30px;
+        padding: 60px 20px 20px;
         margin-top: -50px;
     }
 
@@ -209,4 +209,22 @@ main {
         padding-right: 5px;
         font-size: 14px;
     }
+}
+
+/* Custom Scroll Bar */
+.cartao-pokedev .cartao-informacoes .descricao::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cartao-pokedev .cartao-informacoes .descricao::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cartao-pokedev .cartao-informacoes .descricao::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.cartao-pokedev .cartao-informacoes .descricao::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
 }
